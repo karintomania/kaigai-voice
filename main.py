@@ -8,8 +8,8 @@ from urllib3.response import io
 
 # Define the speaker ID
 SPEAKER_ID = 3
-SPEED_SCALE = 1.3
-POST_PHONEME_LENGTH = 1.5
+SPEED_SCALE = 1.4
+POST_PHONEME_LENGTH = 1.1
 
 def read_text_from_file(filepath):
     print(f"Read text from {filepath}")

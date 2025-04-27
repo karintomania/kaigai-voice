@@ -7,8 +7,10 @@ from datetime import datetime
 from urllib3.response import io
 
 # Define the speaker ID
-SPEAKER_ID = 3
+SPEAKER_ID = 3 # ずんだもん
 SPEED_SCALE = 1.4
+# SPEAKER_ID = 13 # 青山龍星
+# SPEED_SCALE = 1.2
 POST_PHONEME_LENGTH = 1.1
 
 def read_text_from_file(filepath):
